@@ -1,0 +1,4 @@
+config:
+    paths:
+        pim/product-edit-form/export-csv: web200button/js/product/form/export-csv
+        pim/template/product/export-csv: web200button/templates/product/export-csv.html

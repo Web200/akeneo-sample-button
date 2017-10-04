@@ -1,0 +1,6 @@
+extensions:
+    pim-product-edit-form-export-csv:            # The form extension code (can be whatever you want)
+        module: pim/product-edit-form/export-csv # The requirejs module we just created
+        parent: pim-product-edit-form            # The parent extension in the form where we want to be registered
+        targetZone: buttons
+        position: 90                             # The extension position (lower will be first)
